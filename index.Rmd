@@ -4,13 +4,34 @@ author: "Ashan J"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-
+bibliography: [book.bib, packages.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
-  This
+  T
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# Cryptogrphy
+# Overview of cryptographic
+### Secure Communication!
+- Alice need to send a valuable item to Bob through post. However, there is no guarantee that the item will not be stolen while in transit.
+
+- How can Alice and Bob can come up with a secure way to send the item through the post?
+
+  - What is your solution?
+  - Can you improve your solution?
+
+
+
+**What is Cryptography?**\
+Cryptography (cryptology) is the (mathematical) science of techniques for secure communication in the presence of an adversary.
+
+
+
+
+## Substitution ciphers
+## Cryptographic goals
+## Basic terminology and concepts 
+## Symmetric-key encryption
+## Introduction to cryptoanalysis
